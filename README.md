@@ -8,7 +8,7 @@ This is my solution to the [Advice generator app challenge on Frontend Mentor](h
 
 ### Links
 
-- Solution URL: [Check solution]()
+- Solution URL: [Check solution](https://www.frontendmentor.io/solutions/advice-generator-app-DWzHAgqjWg)
 - Live Site URL: [Visit live site](https://thefaceadvice.vercel.app)
 
 ### Built with

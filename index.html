@@ -11,7 +11,7 @@
       href="./images/favicon-32x32.png"
     />
 
-    <title>Frontend Mentor | Advice generator app</title>
+    <title>The Face| Advice generator app</title>
     <link rel="stylesheet" href="style.css" />
     <style>
       .attribution {
@@ -26,25 +26,31 @@
     </style>
   </head>
   <body>
-    <div class="container">
-      <h1>Advice #<span class="id"></span></h1>
-      <q
-        >Advice Generator Designed by THE FACE.. Click on dice icon to generate
-        advice</q
-      >
+    <main>
+      <div class="container">
+        <h1>Advice #<span class="id"></span></h1>
+        <q
+          >Advice Generator Designed by THE FACE.. Click on dice icon to
+          generate advice</q
+        >
 
-      <img src="./images/pattern-divider-desktop.svg" class="divider" alt="" />
-    </div>
-    <button class="dice" onclick="getAdvice()">
-      <img src="./images/icon-dice.svg" alt="" />
-    </button>
+        <img
+          src="./images/pattern-divider-desktop.svg"
+          class="divider"
+          alt=""
+        />
+      </div>
+      <button class="dice" onclick="getAdvice()">
+        <img src="./images/icon-dice.svg" alt="" />
+      </button>
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">The Face</a>.
-    </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">The Face</a>.
+      </div>
+    </main>
     <script>
       function getAdvice() {
         try {
