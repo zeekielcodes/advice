@@ -11,18 +11,22 @@ html {
 }
 
 body {
+  background: hsl(218, 23%, 16%);
+  font-size: ;
+  font-family: Manrope;
+}
+
+main {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: hsl(218, 23%, 16%);
   flex-direction: column;
-  font-family: Manrope;
 }
 
 .container {
   width: 45em;
-  height: 27em;
+  height: 28em;
   background: hsl(217, 19%, 24%);
   border-radius: 1em;
   padding: 2em;
